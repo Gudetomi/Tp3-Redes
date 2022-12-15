@@ -1,0 +1,17 @@
+Para executar:
+
+Primeiro compile o código do servidor:
+gcc -Wall server.c -o server
+
+Para rodar o servidor:
+./server PORT TAM_BUFFER
+./server 3000 1024
+
+
+
+Depois compile o código do cliente:
+gcc -Wall cliente.c -o cliente
+
+Para rodar o cliente:
+./cliente HOST PORT ARQUIVO TAM_BUFFER
+./cliente localhost 3000 arquivo_teste.txt 30
