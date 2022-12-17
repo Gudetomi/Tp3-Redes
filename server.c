@@ -56,7 +56,7 @@ int main(int argc, char *argv[]){
         exit(1);
     }
 
-    BUFFER_TAM = atoi(argv[2]);
+    BUFFER_TAM = atoi(argv[2]); // Tamanho definido pelo terminal
     buffer = (char*) calloc(BUFFER_TAM, sizeof(char));
 
     sockfd = socket(AF_INET, SOCK_STREAM, 0);
