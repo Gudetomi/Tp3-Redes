@@ -1,4 +1,4 @@
-/* Servidor TCP Unidirecional - Envio de arquivos com tamanhos diferentes, bem como buffer de tamanhos diferentes
+/* Servidor TCP Requisição-Resposta - Envio de arquivos com tamanhos diferentes, bem como buffer de tamanhos diferentes
     Antônio Pereira de Souza Júnior - 2022103670
     Laís Fagundes Moraes - 2022103732
     Wagner Lancetti - 2022103705
