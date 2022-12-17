@@ -40,7 +40,7 @@ int main(int argc, char *argv[]){
        fprintf(stderr,"Modo de uso: %s Host_do_Servidor Porta_Servidor Nome_Arquivo Tam_Buffer\n", argv[0]);
        exit(0);
     }
-    BUFFER_TAM = atoi(argv[4]);
+    BUFFER_TAM = atoi(argv[4]); // Tamanho definido no terminal
     buffer = (char*)calloc(BUFFER_TAM, sizeof(char));
 
     portno = atoi(argv[2]);
