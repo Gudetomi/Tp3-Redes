@@ -1,6 +1,6 @@
 PORT=4009
 HOSTNAME=localhost
-FILE=files/arquivo_teste.txt
+FILE=files/arquivo2.txt
 CLIENT_BUFFER_SIZE=1024
 SERVER_BUFFER_SIZE=1024
 
