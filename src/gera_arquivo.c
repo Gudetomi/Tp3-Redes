@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main(){
+int main(int argc, char *argv[]){
     FILE *fp = fopen("arquivo_teste.txt","w");
     long int cont = 0, cont2 = 0;
     char valor[1];
